@@ -7,7 +7,7 @@
 >  + Equal Contribution:
 > Features with larger ranges can dominate those with smaller ranges, skewing the model’s results.
 
-> +Improved Convergence:
+> + Improved Convergence:
 > Gradient-based algorithms (e.g., linear regression, logistic regression, neural networks) converge faster on scaled data.
 
 > + Distance-Based Models:
