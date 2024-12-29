@@ -17,11 +17,12 @@
 > Scaling reduces the risk of numerical instability in computations, especially with regularization techniques like Ridge and Lasso regression.
 
 ## Techniques for Feature Scaling
-> 1. Standardization:
+
+### Standardization:
 > + Transforms data to have a mean of 0 and a standard deviation of 1.
 > + Suitable for algorithms assuming normally distributed data.
 
-## Normalization:
+### Normalization:
 > + Rescales data to a range of [0, 1].
 > + Useful for features not following a normal distribution or when using models like KNN or SVM.
 
