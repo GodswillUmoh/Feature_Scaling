@@ -67,4 +67,16 @@ Feature scaling is typically used when you have more than one predictor (indepen
 |Decision Trees / Random Forest|	Not required|
 |Naive Bayes|	Not required|
 
+## Explanation on Scaling:
+_Imagine a dataset with features like height (cm) and weight (kg):_
+> + Without scaling:
+> Height values (e.g., 170, 180) dominate weight values (e.g., 60, 70) due to larger magnitude.
+
+> + After scaling:
+> Both features are brought to comparable scales, ensuring the model treats them equally.
+
+## Conclusion
+> Use feature scaling when you have multiple predictors with different ranges or when using algorithms sensitive to feature magnitude.
+> For a single predictor, scaling is optional and depends on the specific algorithm and optimization method.
+
 
