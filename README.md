@@ -69,7 +69,7 @@ Feature scaling is typically used when you have more than one predictor (indepen
 |Naive Bayes|	Not required|
 
 ## Takeaway
-We do not have to apply feature scaling in linear regression because the coefficient compensate for the scaling but that is not the case with SVR.
+_We do not have to apply feature scaling in linear regression because the coefficient compensate for the scaling but that is not the case with SVR._
 
 ## Explanation on Scaling:
 _Imagine a dataset with features like height (cm) and weight (kg):_
